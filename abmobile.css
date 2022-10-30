@@ -1,0 +1,95 @@
+
+@import url();
+
+body{
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url("https://img.freepik.com/free-photo/football-scene-stadium-with-close-up-soccer-shoe-kicking-ball_207634-5556.jpg?w=1060");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #cccccc;
+    background-size: 100% 100%;
+}
+a{
+    text-decoration: none;
+}
+
+.container .navbar{
+    flex-direction: column;
+}
+
+.navbar .logo{  
+    display: none;
+}
+.navbar .logo a{
+    display:none;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #f3f3f3;
+}
+.navbar ul{
+    
+    float: right;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.navbar ul li{
+    
+    list-style: none;
+    display: inline-block;
+    font-size: 4vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navbar ul li a:hover{
+    
+background-color : #E6E6FA;
+}
+.navbar ul li a{
+   
+    color: white;
+    text-decoration: none;
+    font-size: 3.5vw;
+    font-family: 'Roboto', sans-serif;
+}
+.container .center{
+    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.container .center h1{
+    
+    text-align: center;
+    color: #66CDAA	;
+    font-size: 40px;
+    cursor:auto;
+}
+
+.container .center h2{
+    
+    color: #F0E68C	;
+    text-align: center;
+    font-size: 40px;
+    cursor:auto;
+}
+.center .buttons
+{
+    
+    margin: 35px 280px;
+}
+.buttons button{
+    height:50px;
+    width: 150px;
+    font-size: 24px;
+    color: #F0E68C;
+    background-color:#66CDAA;
+    border-color:#66CDAA;
+    cursor:pointer;
+}

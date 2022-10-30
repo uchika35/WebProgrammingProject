@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}/*<
+a{
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+  }
+.container{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100hv;
+}*/
+body{
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url("https://img.freepik.com/free-photo/football-scene-stadium-with-close-up-soccer-shoe-kicking-ball_207634-5556.jpg?w=1060");
+    background-color: #cccccc;
+    background-size: 100% 100%;
+    height: 100vh; 
+}
+.container .navbar{
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;    
+    background: rgba(224,255,255,0.4) ;
+}
+.navbar .logo{  
+    display: inline-block;
+    margin-left:60px;
+    margin-top: 20px;
+
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #f3f3f3;
+}
+.navbar ul{
+    float: right;
+    display: flex;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navbar ul li a:hover{
+background-color : #E6E6FA;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.container .center{
+
+    align-items:center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+    font-family: sans-serif;
+    user-select: none;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.container .center h1{
+    text-decoration: none;
+    text-align: center;
+    color: #37f6e0	;
+    font-size: 70px;
+    cursor:auto;
+}
+
+.container .center h2{
+    text-decoration: none;
+    color: #d0cf68	;
+    text-align: center;
+    font-size: 90px;
+    cursor:auto;
+}
+.center{
+    align-self: center;
+    margin-top: 20px;
+}
+.buttons{
+    margin-left: 30% ;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    color: #E6E6FA;
+}
+.buttons button{
+    height: 80px;
+    width: 170px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #E6E6FA;
+    cursor:pointer;
+ 
+   
+    background-color:rgba(0, 0, 0, 0.5)
+    
+}
+
+a:visited {
+    color: #E6E6FA;
+  }
+
+button{
+    border: 1px solid #010202;
+}
+
+.loginContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color:rgba(0, 0, 0, 0.5);
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.loginContainer h1{
+    text-align: center;
+    padding: 0 0 20px 0 ;
+    border-bottom: 1px solid silver;
+}
+
+.loginContainer form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field{
+    position: relative;
+    margin: 30px 0;
+ 
+}
+
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.txt_field label{
+    font-size: 20px;
+}
+
+.txt_field button{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #849197;
+    border-radius: 15px;
+}

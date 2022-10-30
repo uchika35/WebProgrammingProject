@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url("https://img.freepik.com/free-photo/football-scene-stadium-with-close-up-soccer-shoe-kicking-ball_207634-5556.jpg?w=1060");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #cccccc;
+    background-size: 100% 100%;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar .logo{
+      
+    display: none;
+    margin-left:60px;
+    margin-top: 20px;
+
+}
+.navbar .logo a{
+    display: none;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #f3f3f3;
+}
+
+.navbar ul{
+    float: right;
+    display: flex;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 3vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
